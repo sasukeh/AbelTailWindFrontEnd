@@ -27,8 +27,8 @@ steps:
 - bash: |
    # Write your commands here
    cat > .env << EOF
-   PRODUCT_SERVICE_BASE_URL=https://abeltailwindproductservice.azurewebsites.net
-   INVENTORY_SERVICE_BASE_URL=https://abelinventoryserviceapi.azurewebsites.net
+   PRODUCT_SERVICE_BASE_URL=https://kyoheim-appdev2019.azurewebsites.net
+   INVENTORY_SERVICE_BASE_URL=https://kyoheim-appdev2019-2.azurewebsites.net
    EOF
    # Use the environment variables input below to pass secret variables to this script
 
